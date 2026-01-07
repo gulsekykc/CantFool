@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PhishingDetector</title>
+  <link rel="stylesheet" href="popup.css">
+  <!-- Google Fonts: Bebas Neue + Montserrat -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+  <div id="popupContainer">
+    <h2>Can't Fool</h2>
+    <h3>Email Phishing Detector</h3>
+    <button id="analyzeBtn">Analyze Email</button>
+    <div id="loading" style="display:none;">Analyzing...</div>
+    <div id="result">No email analyzed yet.</div>
+    <div id="confidenceBar">
+      <div id="confidenceFill"></div>
+    </div>
+    <div id="links"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
