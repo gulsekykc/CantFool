@@ -1,51 +1,11 @@
-# Python cache ve derleme dosyaları
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.pdb
-*.egg-info/
-*.egg
-
-# Jupyter/Colab notebook çıktıları
-.ipynb_checkpoints/
-*.ipynb
-
-# Sanal ortamlar
-env/
-venv/
-.venv/
-ENV/
-env.bak/
-
-# Model dosyaları (ağır dosyalar)
+# Büyük dosyaları hariç tut
+*.zip
 *.bin
 *.pt
 *.h5
 *.ckpt
-final_model/
-
-# Log ve çıktı dosyaları
-logs/
-*.log
-
-# Veri setleri (büyük dosyalar)
-data/
 *.csv
-*.zip
-
-# Sistem dosyaları
-.DS_Store
-Thumbs.db
-*.zip
-*.bin
-*.pt
-*.h5
-*.ckpt
+*.xlsx
 data/
 final_model/
 others/
-CantFool_withdesign.zip
-others/
-final_model/
-data/
