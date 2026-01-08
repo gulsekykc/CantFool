@@ -1,11 +1,9 @@
-# Büyük dosyaları hariç tut
+*.ipynb
 *.zip
 *.bin
 *.pt
 *.h5
 *.ckpt
-*.csv
-*.xlsx
 data/
 final_model/
 others/
