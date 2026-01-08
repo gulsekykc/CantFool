@@ -129,7 +129,7 @@ def is_ipv4(domain: str) -> bool:
 # -----------------------------
 # 3) Google Safe Browsing
 # -----------------------------
-API_KEY = "AIzaSyC1fjjIFA5qNRozgEAFCng3kUkOrfyiLI0"  # put your key here
+API_KEY = ""  # put your key here
 SAFE_BROWSING_URL = f"https://safebrowsing.googleapis.com/v4/threatMatches:find?key={API_KEY}"
 
 def check_safe_browsing(url: str):
