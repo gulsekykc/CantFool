@@ -15,3 +15,9 @@ pip install -r requirements.txt
 
 # Flask API başlat (ÇALIŞTIR)
 python app.py
+
+
+## Model Dosyaları
+Bu repo yalnızca kodları içerir. 
+`final_model/` klasörü boyut nedeniyle GitHub’a yüklenmemiştir. 
+Model dosyalarını [buradan indirin](https://drive.google.com/...) ve `backend/final_model/` içine yerleştirin.
