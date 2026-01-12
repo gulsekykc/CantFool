@@ -1,9 +1,5 @@
 
 #KUR
-bash
-# Repoyu klonla
-git clone https://github.com/kullaniciadi/cantfool.git
-cd cantfool
 
 # Sanal ortam oluştur
 python -m venv venv
@@ -20,4 +16,4 @@ python app.py
 ## Model Dosyaları
 Bu repo yalnızca kodları içerir. 
 `final_model/` klasörü boyut nedeniyle GitHub’a yüklenmemiştir. 
-Model dosyalarını [buradan indirin](https://drive.google.com/...) ve `backend/final_model/` içine yerleştirin.
+Model dosyalarını indirme kısmına Colab'in içindeki kodda yer verdim, aynı isimle indirip dosyanızın içine yerleştirin.Bu localde çalıştırmak için yapılmış bir yöntemdir. Ayrıca Google Safe Browsing API için API 'yi kendiniz  alıp kodun içine yerleştirmeniz gerekmektedir. Sitesinde b işlem mevcuttur.
